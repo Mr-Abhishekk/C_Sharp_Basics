@@ -1,0 +1,21 @@
+﻿namespace Method_Sample_Program1
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Addition add = new Addition();
+            int add1 = add.CalculateSum(5, 85);
+            Console.WriteLine($"The Addition of two numbers are:{add1}");
+            Console.ReadLine();
+        }
+    }
+    public class Addition
+    {
+    public int CalculateSum(int firstnumber, int secondnumber)
+
+    {
+        int add = firstnumber + secondnumber;
+        return add;
+    } }
+}
