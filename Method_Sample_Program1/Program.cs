@@ -5,7 +5,9 @@
         static void Main(string[] args)
         {
             Addition add = new Addition();
-            int add_1 = add.CalculateSum(5, 85);
+            
+
+            int add_1 = add.CalculateSum(56,70);
             Console.WriteLine($"The Addition of two numbers are:{add_1}");
             Console.ReadLine();
         }
